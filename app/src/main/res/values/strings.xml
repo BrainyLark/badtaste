@@ -11,4 +11,9 @@
     <string name="emailBtn">Болсон</string>
     <string name="enteremail">example.me@xmail.com</string>
     <string name="password">Нууц үг</string>
+    <string name="movieid">Дугаар: </string>
+    <string name="title">Нэр: </string>
+    <string name="predicted">Таамагласан: </string>
+    <string name="genre">Төрөл: </string>
+    <string name="rate">Үнэлэх: </string>
 </resources>

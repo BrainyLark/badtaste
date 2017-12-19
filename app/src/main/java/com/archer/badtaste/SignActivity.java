@@ -11,11 +11,9 @@ import android.widget.EditText;
 public class SignActivity extends AppCompatActivity {
 
     private EditText emailField;
-    private Button emailBtn;
 
     public void initViews() {
         emailField = (EditText) findViewById(R.id.emailField);
-        emailBtn = (Button) findViewById(R.id.emailBtn);
     }
 
     @Override
@@ -25,7 +23,7 @@ public class SignActivity extends AppCompatActivity {
         initViews();
     }
     public void sendEmailBack(View v) {
-        Intent intent = new Intent();
+        Intent intent = getIntent();
         intent.putExtra("email", emailField.getText().toString());
         setResult(Activity.RESULT_OK, intent);
         finish();
