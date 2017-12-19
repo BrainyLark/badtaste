@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BadTaste</string>
+    <string name="desc1">Main Icon</string>
+    <string name="desc2">Twitter Icon</string>
+    <string name="desc3">Facebook Icon</string>
+    <string name="desc4">Instagram Icon</string>
+    <string name="login">Нэвтрэх</string>
+    <string name="register">Бүртгүүлэх үү? Энд дар!</string>
+    <string name="username">Хэрэглэгчийн нэр</string>
+    <string name="email">И-Мейл хаяг:</string>
+    <string name="emailBtn">Болсон</string>
+    <string name="enteremail">example.me@xmail.com</string>
+    <string name="password">Нууц үг</string>
+</resources>
